@@ -8,19 +8,11 @@ The model learns discriminative visual features directly from raw image data, el
 
 ---
 
-## 📂 Dataset
-- The dataset consists of **leaf images of healthy and diseased plants**.
-- Each image belongs to a specific plant disease category or a healthy class.
-- Images are labeled and organized into class-wise directories.
-
-### Preprocessing steps:
-- Image resizing to a fixed input shape
-- Pixel value normalization
-- Dataset splitting into training and validation sets
-
+##  Dataset
+- Kaggle dataset link : https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - Loaded image data using directory-based generators
@@ -51,8 +43,6 @@ The model learns discriminative visual features directly from raw image data, el
 - Achieved reliable classification performance on validation data
 - Accuracy and loss curves indicate effective learning behavior
 
-*(Exact metrics depend on dataset size and training configuration)*
-
 ---
 
 ## 🛠️ Technologies Used
@@ -63,5 +53,3 @@ The model learns discriminative visual features directly from raw image data, el
 - **Jupyter Notebook**
 
 ---
-
-## 📁 Project Structure
